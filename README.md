@@ -8,5 +8,4 @@
 - main.c
 - [GCC](https://code.visualstudio.com/docs/cpp/config-linux)
 - [GDB/LLDB](https://code.visualstudio.com/docs/cpp/cpp-debug)
-- [Cmake tools](https://github.com/microsoft/vscode-cmake-tools)
-
+- [Cmake tools](https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/README.md)
