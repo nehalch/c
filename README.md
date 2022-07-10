@@ -21,3 +21,11 @@
 - [Compiler](https://code.visualstudio.com/docs/cpp/config-linux)
 - [Debugger](https://code.visualstudio.com/docs/cpp/cpp-debug)
 - [Build tool](https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/README.md)
+
+## Cmake
+``` bash
+cd build
+cmake ..
+make
+./c
+```
