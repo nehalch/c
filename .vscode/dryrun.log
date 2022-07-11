@@ -1,28 +1,6 @@
 make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/andrew/projects/c'
-/usr/bin/cmake -S/home/andrew/projects/ccpp -B/home/andrew/projects/ccpp --check-build-system CMakeFiles/Makefile.cmake 0
-/usr/bin/cmake -E cmake_progress_start /home/andrew/projects/ccpp/CMakeFiles /home/andrew/projects/ccpp//CMakeFiles/progress.marks
-make -s -f CMakeFiles/Makefile2 all
- 
-make[1]: Entering directory '/home/andrew/projects/c'
-make -s -f CMakeFiles/c_tst.dir/build.make CMakeFiles/c_tst.dir/depend
- 
-make[2]: Entering directory '/home/andrew/projects/c'
-cd /home/andrew/projects/ccpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/andrew/projects/ccpp /home/andrew/projects/ccpp /home/andrew/projects/ccpp /home/andrew/projects/ccpp /home/andrew/projects/ccpp/CMakeFiles/c_tst.dir/DependInfo.cmake --color=
-make[2]: Leaving directory '/home/andrew/projects/c'
- 
-make -s -f CMakeFiles/c_tst.dir/build.make CMakeFiles/c_tst.dir/build
- 
-make[2]: Entering directory '/home/andrew/projects/c'
-/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/andrew/projects/ccpp/CMakeFiles --progress-num=1 "Building C object CMakeFiles/c_tst.dir/src/main.c.o"
-/usr/bin/cc   -std=gnu2x -MD -MT CMakeFiles/c_tst.dir/src/main.c.o -MF CMakeFiles/c_tst.dir/src/main.c.o.d -o CMakeFiles/c_tst.dir/src/main.c.o -c /home/andrew/projects/ccpp/src/main.c
- 
-/usr/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/home/andrew/projects/ccpp/CMakeFiles --progress-num=2 "Linking C executable c_tst"
-/usr/bin/cmake -E cmake_link_script CMakeFiles/c_tst.dir/link.txt --verbose=
-make[2]: Leaving directory '/home/andrew/projects/c'
-/usr/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/andrew/projects/ccpp/CMakeFiles --progress-num=1,2 "Built target c_tst"
-make[1]: Leaving directory '/home/andrew/projects/c'
- 
-/usr/bin/cmake -E cmake_progress_start /home/andrew/projects/ccpp/CMakeFiles 0
 make: Leaving directory '/home/andrew/projects/c'
  
+make: *** No targets specified and no makefile found.  Stop.
+
